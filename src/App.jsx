@@ -69,7 +69,7 @@ function App() {
               className="form-input px-4 py-2 border rounded-md bg-gray-700 border-gray-600"
             />
           </div>
-          <div className="buttons flex gap-2 mt-2">
+          <div className="buttons flex gap-2 mt-2 mb-5">
             <button
               onClick={goBackOneDay}
               className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
@@ -88,6 +88,14 @@ function App() {
           </div>
         </div>
       </div>
+      <footer className="w-full bg-black text-white py-0.5 text-center text-xs tracking-widest">
+        <a
+          href="http://www.dgenutis.com"
+          className="text-white hover:text-gray-300"
+        >
+          By Dainius Genutis
+        </a>
+      </footer>
     </div>
   );
 }
