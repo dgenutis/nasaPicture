@@ -5,7 +5,7 @@ function App() {
   const [photo, setPhoto] = useState(null);
   const [date, setDate] = useState(() => {
     const today = new Date();
-    return today.toISOString().split("T")[0]; // Set to today's date
+    return today.toISOString().split("T")[0];
   });
 
   useEffect(() => {
