@@ -92,6 +92,7 @@ function App() {
         <p>© 2025 |&nbsp; </p>
         <a
           href="http://www.dgenutis.com"
+          target="_blank"
           className="text-white hover:text-gray-300"
         >
           Dainius Genutis
