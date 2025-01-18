@@ -88,12 +88,13 @@ function App() {
           </div>
         </div>
       </div>
-      <footer className="w-full bg-black text-white py-0.5 text-center text-xs tracking-widest">
+      <footer className="w-full bg-black text-white py-1.5 flex flex-row justify-center  text-xs tracking-widest">
+        <p>© 2025 |&nbsp; </p>
         <a
           href="http://www.dgenutis.com"
           className="text-white hover:text-gray-300"
         >
-          By Dainius Genutis
+          Dainius Genutis
         </a>
       </footer>
     </div>
